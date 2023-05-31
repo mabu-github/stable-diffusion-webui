@@ -1,0 +1,8 @@
+name: stable-diffusion-webui
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.6
+  - pip=23.1.2
+  - pip:
+    - --use-pep517 -r requirements_versions.txt
